@@ -18,5 +18,21 @@ Dataset is split into two parts in 90:10 ratio. Each LSTM model was trained for 
 
 | Model | LogLoss |
 |-----------:|:------------:|
-| This       |        This |
+| Avg(7 LSTM + 6 XGB) | 0.14672 |
+| LSTM Model | 0.15918 |
+| XGB Model | 0.15392 |
 
+## Requirements
+
+* Python 2.7.13
+* jupyter 4.3.1
+
+## Usage
+
+This repository contains various parts performing different function, it can be used by simply running the notebook server by using standard Jupyter command:
+
+```$ jupyter notebook```
+
+## License
+
+MIT. See the LICENSE file for the copyright notice.
