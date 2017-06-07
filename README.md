@@ -14,7 +14,7 @@ Nadam optimizer and binary cross-entropy is used as  the loss function, early st
 
 ## Experiments
 
-Dataset is split into two parts in 90:10 ratio. Each LSTM model was trained for approx 19 eochs and optimal weights were saved using model checkpoint by monitoring validation loss, each epoch took around 220s on Nvidia GTX 1070 gpu and each sgboost model is trained using early stoping round of 50. The configration gives a logloss of 0.14672 on private leaderboard.
+Dataset is split into two parts in 90:10 ratio. Each LSTM model was trained for approx 19 eochs and optimal weights were saved using model checkpoint by monitoring validation loss, each epoch took around 220s on Nvidia GTX 1070 gpu and each xgboost model is trained using early stoping round of 50. The configration gives a logloss of 0.14672 on private leaderboard.
 
 | Model | LogLoss |
 |-----------:|:------------:|
@@ -29,7 +29,7 @@ Dataset is split into two parts in 90:10 ratio. Each LSTM model was trained for 
 
 ## Usage
 
-This repository contains various parts performing different function, it can be used by simply running the notebook server by using standard Jupyter command:
+This repository contains 5 notebooks performing different function, it can be used by simply running the notebook server by using standard Jupyter command:
 
 ```
 $ jupyter notebook
