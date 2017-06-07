@@ -4,6 +4,19 @@ My solution for the Quora Question Pair contest hosted on Kaggle[[1]](https://da
 
 ## Model Implementation
 
-Final submission is the average of 7 LSTM based models and 6 xgboost models with different hyperparameters. LSTM model architecture is based on lystdo[[2]](https://www.kaggle.com/lystdo/lb-0-18-lstm-with-glove-and-magic-features) model on kaggle kernel. Keras architecture of the model is shown below:
+Final submission is the average of **7 LSTM** based models and **6 xgboost** models with different hyperparameters. LSTM model architecture is based on lystdo[[2]](https://www.kaggle.com/lystdo/lb-0-18-lstm-with-glove-and-magic-features) model on kaggle kernel. Keras architecture of the model is shown below:
+
 
 ![[model_1.png]](model_1.png)
+
+
+Nadam optimizer and binary cross-entropy is used as  the loss function, early stopping round by monitoring validation loss is used to avoid overfitting. To create different permutations of hyper-parameter in both xgboost model and lstm, values of hyper-parameter is chosen at random for a defined set.
+
+## Experiments
+
+Dataset is split into two parts in 90:10 ratio. Each LSTM model was trained for approx 19 eochs and optimal weights were saved using model checkpoint by monitoring validation loss, each epoch took around 220s on Nvidia GTX 1070 gpu and each sgboost model is trained using early stoping round of 50. The configration gives a logloss of 0.14672 on private leaderboard.
+
+| Model | LogLoss |
+|-----------:|:------------:|
+| This       |        This |
+
