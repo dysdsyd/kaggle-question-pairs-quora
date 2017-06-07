@@ -31,7 +31,8 @@ Dataset is split into two parts in 90:10 ratio. Each LSTM model was trained for 
 
 This repository contains various parts performing different function, it can be used by simply running the notebook server by using standard Jupyter command:
 
-```$ jupyter notebook
+```
+$ jupyter notebook
 ```
 
 ## License
