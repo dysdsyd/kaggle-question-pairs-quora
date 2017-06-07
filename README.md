@@ -10,7 +10,7 @@ Final submission is the ensemble of **7 LSTM** based models and **6 xgboost** mo
 ![[model_1.png]](model_1.png)
 
 
-Nadam optimizer and binary cross-entropy is used as  the loss function, early stopping round by monitoring validation loss is used to avoid overfitting. To create different permutations of hyper-parameter in both xgboost model and lstm, values of hyper-parameter is chosen at random for a defined set.
+Nadam optimizer and binary cross-entropy is used as  the loss function, early stopping round by monitoring validation loss is used to avoid overfitting. To create different permutations of hyper-parameter in both xgboost model and lstm, values of hyper-parameter is chosen at random from a defined set.
 
 ## Experiments
 
