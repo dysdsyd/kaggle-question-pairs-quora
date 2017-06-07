@@ -36,13 +36,9 @@ $ jupyter notebook
 ```
 
 **feature_engineering.ipynb** : Basic feature Generation
-
 **page_rank.ipynb** : Page rank feature generation
-
 **glove_840b+leaky_features.ipynb** : LSTM model training
-
 **xgboost.ipynb** : XG Boost model training
-
 **averagging.ipynb** : Ensemblling the models
 
 
