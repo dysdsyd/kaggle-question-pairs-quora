@@ -1,7 +1,9 @@
 # Kaggle-question-pairs-quora
 
-My solution for the Quora Question Pair contest hosted on Kaggle[[1]](https://data.quora.com/First-Quora-Dataset-Release-Question-Pairs)  
+Solution for the Quora Question Pair contest hosted on Kaggle[[1]](https://data.quora.com/First-Quora-Dataset-Release-Question-Pairs)  
 Big thanks to the authors of all kernels & posts, which were of great inspiration and some features were derived based on them.
+
+Kaggle Profile : [Daft Vader](https://www.kaggle.com/syeddanish)
 
 ## Model Implementation
 
